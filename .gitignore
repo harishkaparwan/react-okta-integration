@@ -11,3 +11,6 @@ samples-java-spring
 .idea/
 yalc.lock
 .eslintcache
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md

@@ -16,6 +16,9 @@ export default defineConfig(({ _, mode }) => {
 
   return {
     plugins: [react()],
+    server: {
+      port: 3000
+    },
     resolve: {
       alias: {
         'react-router-dom': path.resolve(__dirname, 'node_modules/react-router-dom')
